@@ -1,541 +1,605 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Terms of Service — BRIEF</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Service — Tanto</title>   
+    <style>                               
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+                                                                                 
+      body {                              
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,      
+  Helvetica, Arial, sans-serif;                                                  
+        font-size: 16px;                      
+        line-height: 1.7;                                                        
+        color: #1a1a1a;                                     
+        background: #ffffff;                                                     
+        padding: 0 20px;
+      }                                                                          
+                                                            
+      .wrapper {                          
+        max-width: 720px;
+        margin: 0 auto;                                                          
+        padding: 60px 0 80px;
+      }                                                                          
+                                                            
+      .brand {
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 2px;                  
+        text-transform: uppercase;        
+        color: #0D7680;
+        margin-bottom: 32px;                                                     
+        display: block;
+      }                                                                          
+                                                            
+      h1 {                                    
+        font-size: 32px;                  
+        font-weight: 800;
+        line-height: 1.2;                                                        
+        letter-spacing: -0.5px;
+        color: #0a0a0a;                                                          
+        margin-bottom: 8px;                                 
+      }                                   
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-size: 16px;
-      line-height: 1.7;
-      color: #1a1a1a;
-      background: #ffffff;
-      padding: 0 20px;
-    }
+      .meta {                                                                    
+        font-size: 14px;
+        color: #666;                                                             
+        margin-bottom: 48px;                                
+      }
 
-    .wrapper {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 60px 0 80px;
-    }
+      .intro {                                
+        font-size: 17px;                  
+        line-height: 1.75;
+        color: #333;                                                             
+        border-left: 3px solid #0D7680;
+        padding-left: 20px;                                                      
+        margin-bottom: 48px;                                
+      }                                       
+                                          
+      h2 {
+        font-size: 20px;                                                         
+        font-weight: 700;
+        color: #0a0a0a;                                                          
+        margin-top: 48px;                                   
+        margin-bottom: 12px;                  
+        padding-bottom: 8px;              
+        border-bottom: 1px solid #e8e8e8;
+      }                                                                          
+   
+      h3 {                                                                       
+        font-size: 16px;                                    
+        font-weight: 700;                     
+        color: #0a0a0a;                   
+        margin-top: 24px;
+        margin-bottom: 8px;                                                      
+      }
+                                                                                 
+      p {                                                   
+        margin-bottom: 16px;
+        color: #333;                          
+      }                                   
 
-    .brand {
-      font-size: 13px;
-      font-weight: 800;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #0D7680;
-      margin-bottom: 32px;
-      display: block;
-    }
+      ul, ol {                                                                   
+        margin: 0 0 16px 0;
+        padding-left: 24px;                                                      
+      }                                                     
+                                              
+      li {                                
+        margin-bottom: 8px;
+        color: #333;                                                             
+      }
+                                                                                 
+      .highlight-box {                                      
+        background: #f0fafb;
+        border: 1px solid #b2dde0;            
+        border-radius: 8px;                   
+        padding: 20px 24px;               
+        margin-bottom: 24px;                                                     
+      }                                                                          
+                                                                                 
+      .highlight-box p:last-child,                                               
+      .highlight-box ul:last-child {                        
+        margin-bottom: 0;
+      }                                                                          
+   
+      .warning-box {                                                             
+        background: #fffbf0;                                
+        border: 1px solid #f0d070;            
+        border-radius: 8px;               
+        padding: 20px 24px;                   
+        margin-bottom: 24px;                                                     
+      }
+                                                                                 
+      .warning-box p:last-child {                           
+        margin-bottom: 0;                                                        
+      }                                                     
 
-    h1 {
-      font-size: 32px;
-      font-weight: 800;
-      line-height: 1.2;
-      letter-spacing: -0.5px;
-      color: #0a0a0a;
-      margin-bottom: 8px;
-    }
+      a {                                     
+        color: #0D7680;                   
+        text-decoration: none;
+      }                                                                          
+   
+      a:hover {                                                                  
+        text-decoration: underline;                         
+      }
 
-    .meta {
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 48px;
-    }
+      .contact-block {
+        background: #f9f9f9;
+        border-radius: 8px;                   
+        padding: 24px;                    
+        margin-top: 16px;
+      }                                                                          
+                                          
+      .contact-block p {                                                         
+        margin-bottom: 6px;                                                      
+      }
+                                                                                 
+      .contact-block p:last-child {                         
+        margin-bottom: 0;
+      }                                       
+                                          
+      footer {
+        margin-top: 64px;                                                        
+        padding-top: 24px;
+        border-top: 1px solid #e8e8e8;                                           
+        font-size: 13px;                                    
+        color: #999;                          
+      }                                   
+    </style>
+  </head>                                                                        
+  <body>
+    <div class="wrapper">                                                        
+                                                            
+      <span class="brand">Tanto</span>
 
-    .intro {
-      font-size: 17px;
-      line-height: 1.75;
-      color: #333;
-      border-left: 3px solid #0D7680;
-      padding-left: 20px;
-      margin-bottom: 48px;
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 700;
-      color: #0a0a0a;
-      margin-top: 48px;
-      margin-bottom: 12px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #e8e8e8;
-    }
-
-    h3 {
-      font-size: 16px;
-      font-weight: 700;
-      color: #0a0a0a;
-      margin-top: 24px;
-      margin-bottom: 8px;
-    }
-
-    p {
-      margin-bottom: 16px;
-      color: #333;
-    }
-
-    ul, ol {
-      margin: 0 0 16px 0;
-      padding-left: 24px;
-    }
-
-    li {
-      margin-bottom: 8px;
-      color: #333;
-    }
-
-    .highlight-box {
-      background: #f0fafb;
-      border: 1px solid #b2dde0;
-      border-radius: 8px;
-      padding: 20px 24px;
-      margin-bottom: 24px;
-    }
-
-    .highlight-box p:last-child,
-    .highlight-box ul:last-child {
-      margin-bottom: 0;
-    }
-
-    .warning-box {
-      background: #fffbf0;
-      border: 1px solid #f0d070;
-      border-radius: 8px;
-      padding: 20px 24px;
-      margin-bottom: 24px;
-    }
-
-    .warning-box p:last-child {
-      margin-bottom: 0;
-    }
-
-    a {
-      color: #0D7680;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .contact-block {
-      background: #f9f9f9;
-      border-radius: 8px;
-      padding: 24px;
-      margin-top: 16px;
-    }
-
-    .contact-block p {
-      margin-bottom: 6px;
-    }
-
-    .contact-block p:last-child {
-      margin-bottom: 0;
-    }
-
-    footer {
-      margin-top: 64px;
-      padding-top: 24px;
-      border-top: 1px solid #e8e8e8;
-      font-size: 13px;
-      color: #999;
-    }
-  </style>
-</head>
-<body>
-  <div class="wrapper">
-
-    <span class="brand">BRIEF</span>
-
-    <h1>Terms of Service</h1>
-    <p class="meta">Last updated: 22 April 2026 &nbsp;·&nbsp; Effective: 22 April 2026</p>
-
-    <p class="intro">
-      These Terms of Service govern your use of the BRIEF app. Please read them carefully.
-      By creating an account or using BRIEF, you agree to be bound by these terms.
-      If you do not agree, do not use the app.
-    </p>
-
-
-    <!-- ── 1. About BRIEF ─────────────────────────────────────────────────── -->
-    <h2>1. About BRIEF</h2>
-
-    <p>
-      BRIEF is an independent news analysis app that delivers AI-generated summaries
-      and commentary on current events across categories including world affairs,
-      economics, technology, sport, culture, and science. BRIEF is operated as an
-      independent app and is not affiliated with any news organisation.
-    </p>
-
-    <p>
-      BRIEF is available on iOS. These terms apply to your use of the BRIEF app
-      and any related services we provide.
-    </p>
-
-
-    <!-- ── 2. Eligibility ─────────────────────────────────────────────────── -->
-    <h2>2. Eligibility</h2>
-
-    <p>
-      You must be at least 13 years old to use BRIEF. By creating an account,
-      you confirm that you meet this requirement. If you are under 18, you confirm
-      that you have your parent or guardian's permission to use the app.
-    </p>
-
-    <p>
-      BRIEF is intended for personal, non-commercial use. You may not use the app
-      on behalf of a business or organisation without our prior written consent.
-    </p>
-
-
-    <!-- ── 3. Your account ────────────────────────────────────────────────── -->
-    <h2>3. Your account</h2>
-
-    <p>
-      To access certain features — including bookmarks, followed topics, and push
-      notifications — you must create an account using Apple Sign-In or Google Sign-In.
-    </p>
-
-    <p>
-      You are responsible for all activity that occurs under your account. You must
-      not share your account with others or allow others to access it. If you believe
-      your account has been compromised, contact us immediately at
-      <a href="mailto:getbrief.app@gmail.com">getbrief.app@gmail.com</a>.
-    </p>
-
-    <p>
-      You may delete your account at any time from within the app via
-      <strong>Settings → Delete Account</strong>. Deletion is permanent and
-      irreversible. All your data — bookmarks, followed topics, and notification
-      preferences — will be deleted immediately. For details of what data is held
-      and for how long, see our
-      <a href="https://getbrief.github.io/privacy">Privacy Policy</a>.
-    </p>
-
-
-    <!-- ── 4. The content — important disclaimers ─────────────────────────── -->
-    <h2>4. The content — important disclaimers</h2>
-
-    <div class="warning-box">
-      <p>
-        <strong>Please read this section carefully.</strong> It explains the nature
-        of the content in BRIEF and the limits of what it should be used for.
+      <h1>Terms of Service</h1>               
+      <p class="meta">Last updated: 18 May 2026 &nbsp;·&nbsp; Effective: 18 May
+  2026</p>                                    
+                                                                                 
+      <p class="intro">
+        These Terms of Service govern your use of the Tanto app. Please read them
+   carefully.                                               
+        By creating an account or using Tanto, you agree to be bound by these    
+  terms.                                                    
+        If you do not agree, do not use the app.                                 
       </p>
-    </div>
-
-    <h3>4.1 AI-generated analysis</h3>
-
-    <p>
-      The content in BRIEF — including headlines, summaries, contextual analysis,
-      and data points — is generated using artificial intelligence informed by
-      publicly available news sources. It is not written by journalists. It is not
-      produced by a newsroom. It is not verified by editorial staff before publication.
-    </p>
-
-    <p>
-      BRIEF is a starting point for understanding current events, not a replacement
-      for primary news sources. For any topic of importance to you, we encourage you
-      to read the original sources, which are attributed and linked in every story.
-    </p>
-
-    <p>
-      BRIEF makes no warranty that the content is accurate, complete, or up to date.
-      AI systems can produce errors, mischaracterise events, or reflect the biases
-      present in their training data. We work to minimise this through editorial
-      curation, but we cannot guarantee it.
-    </p>
-
-    <h3>4.2 Not financial advice</h3>
-
-    <p>
-      BRIEF covers economic and financial topics including markets, investing,
-      business, and macroeconomic trends. <strong>Nothing in BRIEF constitutes
-      financial advice, investment advice, or a recommendation to buy or sell
-      any asset.</strong> Content in the Economy &amp; Markets category is
-      provided for informational and educational purposes only.
-    </p>
-
-    <p>
-      You should not make financial decisions based solely on content you have
-      read in BRIEF. If you require financial advice, consult a qualified financial
-      adviser authorised by the Financial Conduct Authority (FCA) or the relevant
-      regulatory body in your jurisdiction.
-    </p>
-
-    <h3>4.3 Not medical advice</h3>
-
-    <p>
-      BRIEF covers health and science topics. <strong>Nothing in BRIEF constitutes
-      medical advice, diagnosis, or treatment recommendations.</strong> Content in
-      the Health &amp; Science category is provided for informational purposes only.
-      Always seek the advice of a qualified medical professional for any health
-      concerns.
-    </p>
-
-    <h3>4.4 Not legal advice</h3>
-
-    <p>
-      Nothing in BRIEF constitutes legal advice. If you have a legal matter,
-      consult a qualified solicitor or legal professional.
-    </p>
-
-    <h3>4.5 Source attribution</h3>
-
-    <p>
-      Every story in BRIEF includes attribution to the original news sources that
-      informed the AI-generated analysis. Attribution is provided as a courtesy and
-      for transparency. BRIEF does not reproduce original articles verbatim, does not
-      claim ownership of the underlying news events, and is not endorsed by or
-      affiliated with any of the attributed news organisations.
-    </p>
-
-
-    <!-- ── 5. Acceptable use ──────────────────────────────────────────────── -->
-    <h2>5. Acceptable use</h2>
-
-    <p>You agree not to use BRIEF to:</p>
-
-    <ul>
-      <li>Violate any applicable law or regulation</li>
-      <li>Scrape, copy, or extract content from the app by automated means</li>
-      <li>Attempt to reverse-engineer, decompile, or disassemble any part of the app</li>
-      <li>Interfere with or disrupt the app or its servers</li>
-      <li>Attempt to gain unauthorised access to any part of the app or its infrastructure</li>
-      <li>Use the app in any way that could damage, disable, or impair its operation</li>
-      <li>Misrepresent BRIEF content as your own original work</li>
-      <li>Reproduce or republish BRIEF content commercially without our written permission</li>
-    </ul>
-
-    <p>
-      BRIEF does not support user-generated content. There are no comments, posts,
-      or public interactions within the app.
-    </p>
-
-
-    <!-- ── 6. Intellectual property ──────────────────────────────────────── -->
-    <h2>6. Intellectual property</h2>
-
-    <h3>6.1 BRIEF's content</h3>
-
-    <p>
-      The AI-generated text, headlines, analysis, summaries, and visual presentation
-      within BRIEF are the intellectual property of BRIEF. You may read, share, and
-      quote BRIEF content for personal, non-commercial purposes, provided you
-      attribute it to BRIEF. You may not reproduce BRIEF content in bulk, sell it,
-      or use it to train AI models without our written consent.
-    </p>
-
-    <h3>6.2 The app itself</h3>
-
-    <p>
-      The BRIEF app, including its design, code, branding, and all associated
-      materials, is owned by BRIEF. Nothing in these terms grants you any ownership
-      interest in the app. You are granted a limited, non-exclusive, non-transferable,
-      revocable licence to use the app for personal purposes in accordance with
-      these terms.
-    </p>
-
-    <h3>6.3 Third-party content</h3>
-
-    <p>
-      Original news articles, photographs, and other materials produced by third-party
-      news organisations remain the property of their respective owners. BRIEF does not
-      claim ownership of any third-party content and does not reproduce it.
-    </p>
-
-    <h3>6.4 Your data</h3>
-
-    <p>
-      You retain ownership of your personal data. By using BRIEF, you grant us
-      a limited licence to store and process your data solely for the purpose of
-      providing the service to you, as described in our
-      <a href="https://getbrief.github.io/privacy">Privacy Policy</a>.
-      We do not use your data for advertising or sell it to third parties.
-    </p>
-
-
-    <!-- ── 7. Push notifications ─────────────────────────────────────────── -->
-    <h2>7. Push notifications</h2>
-
-    <p>
-      With your permission, BRIEF sends push notifications to let you know when
-      new stories are available, typically twice per day. Notifications are never
-      used for marketing, promotions, or third-party communications.
-    </p>
-
-    <p>
-      You can disable notifications at any time in <strong>iOS Settings →
-      BRIEF → Notifications</strong>. Disabling notifications does not affect
-      your account or any other aspect of the service.
-    </p>
-
-
-    <!-- ── 8. Availability and changes to the service ────────────────────── -->
-    <h2>8. Availability and changes to the service</h2>
-
-    <p>
-      We aim to keep BRIEF available at all times, but we do not guarantee
-      uninterrupted access. The service may be temporarily unavailable due to
-      maintenance, technical issues, or circumstances outside our control.
-    </p>
-
-    <p>
-      We reserve the right to modify, suspend, or discontinue any part of BRIEF
-      at any time. Where a change materially affects your use of the service,
-      we will provide reasonable notice within the app where practicable.
-    </p>
-
-    <p>
-      The content pipeline that produces stories in BRIEF runs twice daily.
-      Stories are automatically removed after 72 hours. We do not guarantee a
-      minimum volume of stories or coverage of any particular topic or event.
-    </p>
-
-
-    <!-- ── 9. Account suspension and termination ─────────────────────────── -->
-    <h2>9. Account suspension and termination</h2>
-
-    <p>
-      We reserve the right to suspend or terminate your account if we have
-      reasonable grounds to believe you have violated these terms, or if your
-      use of the app is causing harm to the service or other users.
-    </p>
-
-    <p>
-      Where possible, we will contact you before taking action. If your account
-      is terminated by us, you may contact us at
-      <a href="mailto:getbrief.app@gmail.com">getbrief.app@gmail.com</a>
-      to request a review.
-    </p>
-
-    <p>
-      You may terminate your own account at any time by using
-      <strong>Settings → Delete Account</strong> within the app.
-    </p>
-
-
-    <!-- ── 10. Disclaimer of warranties ──────────────────────────────────── -->
-    <h2>10. Disclaimer of warranties</h2>
-
-    <p>
-      BRIEF is provided on an "as is" and "as available" basis. To the fullest
-      extent permitted by law, we disclaim all warranties, express or implied,
-      including but not limited to warranties of merchantability, fitness for a
-      particular purpose, and non-infringement.
-    </p>
-
-    <p>
-      We do not warrant that:
-    </p>
-
-    <ul>
-      <li>The app will be error-free or uninterrupted</li>
-      <li>Any content in the app is accurate, complete, or current</li>
-      <li>The app will meet your specific requirements</li>
-      <li>Any defects will be corrected</li>
-    </ul>
-
-    <p>
-      Nothing in this section limits our liability for death or personal injury
-      caused by our negligence, fraud, or any other liability that cannot be
-      excluded under English law.
-    </p>
-
-
-    <!-- ── 11. Limitation of liability ───────────────────────────────────── -->
-    <h2>11. Limitation of liability</h2>
-
-    <p>
-      To the fullest extent permitted by applicable law, BRIEF shall not be
-      liable for any indirect, incidental, special, consequential, or punitive
-      damages arising from your use of or inability to use the app, including
-      but not limited to:
-    </p>
-
-    <ul>
-      <li>Loss of profit, revenue, or anticipated savings</li>
-      <li>Loss of data or goodwill</li>
-      <li>Financial losses arising from reliance on content in the app</li>
-      <li>Any damage caused by errors or inaccuracies in AI-generated content</li>
-    </ul>
-
-    <p>
-      In jurisdictions where limitation of liability for consequential damages
-      is not permitted, our liability is limited to the maximum extent permitted
-      by law.
-    </p>
-
-    <p>
-      Nothing in these terms affects your statutory rights as a consumer under
-      English law.
-    </p>
-
-
-    <!-- ── 12. Changes to these terms ────────────────────────────────────── -->
-    <h2>12. Changes to these terms</h2>
-
-    <p>
-      We may update these terms from time to time. When we do, we will update the
-      "Last updated" date at the top of this page. For significant changes — such
-      as changes to acceptable use, intellectual property rights, or liability —
-      we will notify you within the app before the change takes effect.
-    </p>
-
-    <p>
-      Continuing to use BRIEF after updated terms take effect constitutes your
-      acceptance of those terms. The current version of these terms is always
-      available at
-      <a href="https://getbrief.github.io/terms">https://getbrief.github.io/terms</a>.
-    </p>
-
-
-    <!-- ── 13. Governing law and disputes ────────────────────────────────── -->
-    <h2>13. Governing law and disputes</h2>
-
-    <p>
-      These terms are governed by the laws of England and Wales. Any disputes
-      arising from these terms or your use of BRIEF will be subject to the
-      exclusive jurisdiction of the courts of England and Wales, except where
-      mandatory consumer protection laws in your country of residence provide
-      otherwise.
-    </p>
-
-    <p>
-      If you have a complaint or dispute, please contact us first at
-      <a href="mailto:getbrief.app@gmail.com">getbrief.app@gmail.com</a>.
-      We will make every reasonable effort to resolve it directly before
-      any formal proceedings are initiated.
-    </p>
-
-
-    <!-- ── 14. Contact ────────────────────────────────────────────────────── -->
-    <h2>14. Contact</h2>
-
-    <p>
-      For any questions or concerns about these terms, please contact:
-    </p>
-
-    <div class="contact-block">
-      <p><strong>BRIEF</strong></p>
-      <p>Email: <a href="mailto:getbrief.app@gmail.com">getbrief.app@gmail.com</a></p>
-      <p>We aim to respond to all enquiries within 30 days.</p>
-    </div>
-
-    <p style="margin-top: 24px;">
-      Our Privacy Policy is available at
-      <a href="https://getbrief.github.io/privacy">https://getbrief.github.io/privacy</a>.
-    </p>
-
-
-    <footer>
-      <p>© 2026 BRIEF. These terms were last updated on 22 April 2026.</p>
-    </footer>
-
-  </div>
-</body>
-</html>
+                                                                                 
+                                                            
+      <!-- ── 1. About Tanto ────────────────────────────────────────────────────
+   -->                                                                           
+      <h2>1. About Tanto</h2>
+                                                                                 
+      <p>                                                   
+        Tanto is an independent news analysis app that delivers AI-generated
+  summaries                                                                      
+        and commentary on current events across categories including world
+  affairs,                                                                       
+        economics, technology, sport, culture, and science. Tanto is operated as 
+  an                                          
+        independent app and is not affiliated with any news organisation.        
+      </p>                                                  
+                                                                                 
+      <p>                                                   
+        Tanto is available on iOS. These terms apply to your use of the Tanto app
+        and any related services we provide.                
+      </p>                                    
+                                          
+                                                                                 
+      <!-- ── 2. Eligibility ────────────────────────────────────────────────────
+   -->                                                                           
+      <h2>2. Eligibility</h2>                                                    
+                                                            
+      <p>                                 
+        You must be at least 13 years old to use Tanto. By creating an account,
+        you confirm that you meet this requirement. If you are under 18, you     
+  confirm                                 
+        that you have your parent or guardian's permission to use the app.       
+      </p>                                                                       
+                                          
+      <p>                                                                        
+        Tanto is intended for personal, non-commercial use. You may not use the  
+  app                                         
+        on behalf of a business or organisation without our prior written        
+  consent.                                                  
+      </p>                                                                       
+   
+                                                                                 
+      <!-- ── 3. Your account ───────────────────────────────────────────────────
+   -->                                                                           
+      <h2>3. Your account</h2>                                                   
+   
+      <p>                                                                        
+        To access certain features — including bookmarks, followed topics, and
+  push                                        
+        notifications — you must create an account using Apple Sign-In or Google
+  Sign-In.
+      </p>                                                                       
+   
+      <p>                                                                        
+        You are responsible for all activity that occurs under your account. You
+  must                                        
+        not share your account with others or allow others to access it. If you
+  believe                                     
+        your account has been compromised, contact us immediately at             
+        <a href="mailto:getbrief.app@gmail.com">getbrief.app@gmail.com</a>.
+      </p>                                                                       
+                                                            
+      <p>                                                                        
+        You may delete your account at any time from within the app via          
+        <strong>Settings → Delete Account</strong>. Deletion is permanent and
+        irreversible. All your data — bookmarks, followed topics, and            
+  notification                                              
+        preferences — will be deleted immediately. For details of what data is   
+  held                                        
+        and for how long, see our                                                
+        <a href="https://tanto-app.github.io/privacy">Privacy Policy</a>.
+      </p>                                                                       
+                                                            
+                                                                                 
+      <!-- ── 4. The content — important disclaimers ────────────────────────────
+   -->                                                                           
+      <h2>4. The content — important disclaimers</h2>                            
+                                              
+      <div class="warning-box">                                                  
+        <p>                                                 
+          <strong>Please read this section carefully.</strong> It explains the   
+  nature
+          of the content in Tanto and the limits of what it should be used for.  
+        </p>                                                
+      </div>                              
+
+      <h3>4.1 AI-generated analysis</h3>                                         
+   
+      <p>                                                                        
+        The content in Tanto — including headlines, summaries, contextual
+  analysis,                                   
+        and data points — is generated using artificial intelligence informed by
+        publicly available news sources. It is not written by journalists. It is
+  not                                                                            
+        produced by a newsroom. It is not verified by editorial staff before
+  publication.                                                                   
+      </p>                                                                       
+   
+      <p>                                                                        
+        Tanto is a starting point for understanding current events, not a
+  replacement                                                                    
+        for primary news sources. For any topic of importance to you, we
+  encourage you                               
+        to read the original sources, which are attributed and linked in every   
+  story.                                      
+      </p>                                                                       
+                                                            
+      <p>                                                                        
+        Tanto makes no warranty that the content is accurate, complete, or up to
+  date.                                                                          
+        AI systems can produce errors, mischaracterise events, or reflect the
+  biases                                      
+        present in their training data. We work to minimise this through         
+  editorial                                   
+        curation, but we cannot guarantee it.                                    
+      </p>                                                  
+                                                                                 
+      <h3>4.2 Not financial advice</h3>                     
+                                                                                 
+      <p>                                                   
+        Tanto covers economic and financial topics including markets, investing, 
+        business, and macroeconomic trends. <strong>Nothing in Tanto constitutes
+        financial advice, investment advice, or a recommendation to buy or sell
+        any asset.</strong> Content in the Economy &amp; Markets category is
+        provided for informational and educational purposes only.                
+      </p>                                                                       
+                                                                                 
+      <p>                                                                        
+        You should not make financial decisions based solely on content you have 
+        read in Tanto. If you require financial advice, consult a qualified      
+  financial                                                 
+        adviser authorised by the Financial Conduct Authority (FCA) or the
+  relevant                                                                       
+        regulatory body in your jurisdiction.                                    
+      </p>                                                                       
+                                                                                 
+      <h3>4.3 Not medical advice</h3>                       
+                                                                                 
+      <p>
+        Tanto covers health and science topics. <strong>Nothing in Tanto         
+  constitutes                                               
+        medical advice, diagnosis, or treatment recommendations.</strong> Content
+   in
+        the Health &amp; Science category is provided for informational purposes 
+  only.                                       
+        Always seek the advice of a qualified medical professional for any health
+   concerns.                                                
+      </p>                                                                       
+                                              
+      <h3>4.4 Not legal advice</h3>                                              
+                                                            
+      <p>                                                                        
+        Nothing in Tanto constitutes legal advice. If you have a legal matter,
+        consult a qualified solicitor or legal professional.                     
+      </p>                                                  
+
+      <h3>4.5 Source attribution</h3>                                            
+                                          
+      <p>                                                                        
+        Every story in Tanto includes attribution to the original news sources   
+  that                                        
+        informed the AI-generated analysis. Attribution is provided as a courtesy
+   and                                                      
+        for transparency. Tanto does not reproduce original articles verbatim,   
+  does not                                    
+        claim ownership of the underlying news events, and is not endorsed by or 
+        affiliated with any of the attributed news organisations.
+      </p>                                                                       
+                                                            
+                                                                                 
+      <!-- ── 5. Acceptable use ─────────────────────────────────────────────────
+   -->                                                                           
+      <h2>5. Acceptable use</h2>                            
+                                                                                 
+      <p>You agree not to use Tanto to:</p>                 
+                                          
+      <ul>
+        <li>Violate any applicable law or regulation</li>                        
+        <li>Scrape, copy, or extract content from the app by automated means</li>
+        <li>Attempt to reverse-engineer, decompile, or disassemble any part of   
+  the app</li>                                              
+        <li>Interfere with or disrupt the app or its servers</li>
+        <li>Attempt to gain unauthorised access to any part of the app or its    
+  infrastructure</li>                                                            
+        <li>Use the app in any way that could damage, disable, or impair its     
+  operation</li>                                                                 
+        <li>Misrepresent Tanto content as your own original work</li>            
+        <li>Reproduce or republish Tanto content commercially without our written
+   permission</li>                                                               
+      </ul>                                                 
+                                                                                 
+      <p>                                                                        
+        Tanto does not support user-generated content. There are no comments,    
+  posts,                                                                         
+        or public interactions within the app.              
+      </p>                                    
+                                                                                 
+   
+      <!-- ── 6. Intellectual property                                           
+  ─────────────────────────────────────────── -->           
+      <h2>6. Intellectual property</h2>                                          
+                                                            
+      <h3>6.1 Tanto's content</h3>        
+
+      <p>                                                                        
+        The AI-generated text, headlines, analysis, summaries, and visual
+  presentation                                                                   
+        within Tanto are the intellectual property of Tanto. You may read, share,
+   and                                        
+        quote Tanto content for personal, non-commercial purposes, provided you  
+        attribute it to Tanto. You may not reproduce Tanto content in bulk, sell
+  it,                                                                            
+        or use it to train AI models without our written consent.
+      </p>                                                                       
+                                                                                 
+      <h3>6.2 The app itself</h3>                                                
+                                                                                 
+      <p>                                                   
+        The Tanto app, including its design, code, branding, and all associated  
+        materials, is owned by Tanto. Nothing in these terms grants you any
+  ownership                                   
+        interest in the app. You are granted a limited, non-exclusive,
+  non-transferable,                                                              
+        revocable licence to use the app for personal purposes in accordance with
+   these terms.                                                                  
+      </p>                                                                       
+                                                            
+      <h3>6.3 Third-party content</h3>                                           
+                                                            
+      <p>
+        Original news articles, photographs, and other materials produced by     
+  third-party                                 
+        news organisations remain the property of their respective owners. Tanto 
+  does not                                                  
+        claim ownership of any third-party content and does not reproduce it.    
+      </p>                                    
+                                                                                 
+      <h3>6.4 Your data</h3>                                
+                                                                                 
+      <p>
+        You retain ownership of your personal data. By using Tanto, you grant us 
+        a limited licence to store and process your data solely for the purpose
+  of                                          
+        providing the service to you, as described in our
+        <a href="https://tanto-app.github.io/privacy">Privacy Policy</a>.        
+        We do not use your data for advertising or sell it to third parties.     
+      </p>                                                                       
+                                                                                 
+                                                                                 
+      <!-- ── 7. Push notifications ──────────────────────────────────────────── 
+  -->                                                                            
+      <h2>7. Push notifications</h2>                                             
+                                                            
+      <p>                                 
+        With your permission, Tanto sends push notifications to let you know when
+        new stories are available, typically twice per day. Notifications are    
+  never                                       
+        used for marketing, promotions, or third-party communications.           
+      </p>                                                  
+                                                                                 
+      <p>
+        You can disable notifications at any time in <strong>iOS Settings →      
+        Tanto → Notifications</strong>. Disabling notifications does not affect
+        your account or any other aspect of the service.
+      </p>                                    
+                                                                                 
+                                                                                 
+      <!-- ── 8. Availability and changes to the service ──────────────────────  
+  -->                                                                            
+      <h2>8. Availability and changes to the service</h2>                        
+                                                            
+      <p>                                                                        
+        We aim to keep Tanto available at all times, but we do not guarantee
+        uninterrupted access. The service may be temporarily unavailable due to
+        maintenance, technical issues, or circumstances outside our control.
+      </p>                                
+                                                                                 
+      <p>                                                                        
+        We reserve the right to modify, suspend, or discontinue any part of Tanto
+        at any time. Where a change materially affects your use of the service,  
+        we will provide reasonable notice within the app where practicable.
+      </p>                                    
+                                                                                 
+      <p>                                     
+        The content pipeline that produces stories in Tanto runs twice daily.    
+        Stories are automatically removed after 72 hours. We do not guarantee a
+        minimum volume of stories or coverage of any particular topic or event.  
+      </p>                                                  
+                                                                                 
+                                                                                 
+      <!-- ── 9. Account suspension and termination ──────────────────────────── 
+  -->                                                                            
+      <h2>9. Account suspension and termination</h2>                             
+                                                            
+      <p>                                 
+        We reserve the right to suspend or terminate your account if we have
+        reasonable grounds to believe you have violated these terms, or if your  
+        use of the app is causing harm to the service or other users.
+      </p>                                                                       
+                                                            
+      <p>                                                                        
+        Where possible, we will contact you before taking action. If your account
+        is terminated by us, you may contact us at                               
+        <a href="mailto:getbrief.app@gmail.com">getbrief.app@gmail.com</a>       
+        to request a review.                                
+      </p>                                                                       
+   
+      <p>                                                                        
+        You may terminate your own account at any time by using
+        <strong>Settings → Delete Account</strong> within the app.               
+      </p>                                                  
+
+                                                                                 
+      <!-- ── 10. Disclaimer of warranties ──────────────────────────────────────
+   -->                                                                           
+      <h2>10. Disclaimer of warranties</h2>                                      
+   
+      <p>                                                                        
+        Tanto is provided on an "as is" and "as available" basis. To the fullest
+        extent permitted by law, we disclaim all warranties, express or implied,
+        including but not limited to warranties of merchantability, fitness for a
+        particular purpose, and non-infringement.
+      </p>                                                                       
+   
+      <p>We do not warrant that:</p>                                             
+                                                            
+      <ul>                                                                       
+        <li>The app will be error-free or uninterrupted</li>
+        <li>Any content in the app is accurate, complete, or current</li>
+        <li>The app will meet your specific requirements</li>                    
+        <li>Any defects will be corrected</li>
+      </ul>                                                                      
+                                                                                 
+      <p>
+        Nothing in this section limits our liability for death or personal injury
+        caused by our negligence, fraud, or any other liability that cannot be
+        excluded under English law.                                              
+      </p>                                                  
+                                                                                 
+                                              
+      <!-- ── 11. Limitation of liability                                        
+  ──────────────────────────────────────── -->              
+      <h2>11. Limitation of liability</h2>                                       
+   
+      <p>                                                                        
+        To the fullest extent permitted by applicable law, Tanto shall not be
+        liable for any indirect, incidental, special, consequential, or punitive
+        damages arising from your use of or inability to use the app, including
+        but not limited to:
+      </p>                                                                       
+   
+      <ul>                                                                       
+        <li>Loss of profit, revenue, or anticipated savings</li>
+        <li>Loss of data or goodwill</li>     
+        <li>Financial losses arising from reliance on content in the app</li>
+        <li>Any damage caused by errors or inaccuracies in AI-generated
+  content</li>                                                                   
+      </ul>                               
+                                                                                 
+      <p>                                                                        
+        In jurisdictions where limitation of liability for consequential damages 
+        is not permitted, our liability is limited to the maximum extent         
+  permitted by law.                                         
+      </p>                                
+                                                                                 
+      <p>                                                                        
+        Nothing in these terms affects your statutory rights as a consumer under 
+  English law.                                                                   
+      </p>                                                  
+
+                                                                                 
+      <!-- ── 12. Changes to these terms ────────────────────────────────────────
+   -->                                                                           
+      <h2>12. Changes to these terms</h2>                                        
+   
+      <p>                                                                        
+        We may update these terms from time to time. When we do, we will update
+  the                                         
+        "Last updated" date at the top of this page. For significant changes —
+  such as
+        changes to acceptable use, intellectual property rights, or liability —  
+        we will notify you within the app before the change takes effect.
+      </p>                                                                       
+                                                            
+      <p>                                                                        
+        Continuing to use Tanto after updated terms take effect constitutes your 
+        acceptance of those terms. The current version of these terms is always  
+        available at                                                             
+        <a                                                  
+  href="https://tanto-app.github.io/terms">https://tanto-app.github.io/terms</a>.
+      </p>                                                                       
+                                                                                 
+                                                                                 
+      <!-- ── 13. Governing law and disputes ────────────────────────────────────
+   -->
+      <h2>13. Governing law and disputes</h2>                                    
+                                              
+      <p>                                                                        
+        These terms are governed by the laws of England and Wales. Any disputes
+        arising from these terms or your use of Tanto will be subject to the     
+        exclusive jurisdiction of the courts of England and Wales, except where
+        mandatory consumer protection laws in your country of residence provide  
+  otherwise.                                                
+      </p>                                                                       
+   
+      <p>                                                                        
+        If you have a complaint or dispute, please contact us first at
+        <a href="mailto:getbrief.app@gmail.com">getbrief.app@gmail.com</a>.      
+        We will make every reasonable effort to resolve it directly before
+        any formal proceedings are initiated.
+      </p>                                                                       
+                                                                                 
+                                                                                 
+      <!-- ── 14. Contact                                                        
+  ──────────────────────────────────────────────────────── -->
+      <h2>14. Contact</h2>                                                       
+                                                            
+      <p>For any questions or concerns about these terms, please contact:</p>    
+                                                            
+      <div class="contact-block">             
+        <p><strong>Tanto</strong></p>     
+        <p>Email: <a 
+  href="mailto:getbrief.app@gmail.com">getbrief.app@gmail.com</a></p>            
+        <p>We aim to respond to all enquiries within 30 days.</p>
+      </div>                                                                     
+                                                                                 
+      <p style="margin-top: 24px;">
+        Our Privacy Policy is available at                                       
+        <a href="https://tanto-app.github.io/privacy">https://tanto-app.github.io
+  /privacy</a>.                                                                  
+      </p>                                                  
+
+                                                                                 
+      <footer>
+        <p>© 2026 Tanto. These terms were last updated on 18 May 2026.</p>       
+      </footer>                                             
+                                              
+    </div>                                
+  </body>                                                                        
+  </html>       
